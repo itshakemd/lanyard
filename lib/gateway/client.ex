@@ -94,7 +94,7 @@ defmodule Lanyard.Gateway.Client do
       )
     end
 
-    {:close, reason, state}
+    {:close, :normal, state}
   end
 
   def websocket_handle({:text, payload}, _socket, state) do
