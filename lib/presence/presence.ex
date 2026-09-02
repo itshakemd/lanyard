@@ -14,6 +14,7 @@ defmodule Lanyard.Presence.PrettyPresence do
             active_on_discord_vr: false,
             listening_to_spotify: false,
             spotify: nil,
+            last_played_spotify: nil,
             activities: [],
             kv: %{}
 end
